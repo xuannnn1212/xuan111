@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab101.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            <div class="title">Sing up form</div>
+            <div class="form-group">
+                Ho va ten: <br>
+                <input type="text" class="form-control" @tabindex = "1">
+            </div>
+            <div class="form-group">
+                Quoc tich: <br>
+                <input type="text" value="Viet Nam" readonly class="form-control">
+            </div>
+
+            <div class="form-group">
+                Ghi chu: <br>
+                <textarea class="form" @tabindex = "2" name="" id="" cols="80" rows="10"></textarea>
+            </div>
+
+            <hr>
+
+            <div class="form-group">
+                <input type="submit" @tabindex = "2" class="form-bottom" value="Them">
+                <input type="submit" @tabindex = "2" class="form-bottom" value="Sua">
+                <input type="submit" class="form-bottom" value="Xoa" disabled>
+
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            width: 400px;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+        }
+    </style>
+</head>
+<body>
+    <!-- Form dang ky -->
+    <form action="#" method="post" enctype="multipart/form-data" class="form">
+        Ho va ten <br>
+        <input type="text"> <br>
+        Gioi tinh: <label for="">
+            <input type="radio" checked=" checked"> Nam
+        </label>
+        <label for="">
+            <input type="radio" checked=" checked"> Nu
+        </label> <br>
+        Hinh anh: <br>
+        <input type="file" value="Choose file"> <br>
+        Quoc tich: <br>
+        <select name="list" id="list">
+            <option value="My">My</option>
+            <option value="Viet Nam">Viet Nam</option>
+            <option value="Trung quoc">Trung quoc</option>
+            <option value="Thai lan">Thai lan</option>
+        </select> <br>
+        So thich: <br>
+        <label for=""><input type="checkbox">The thao</label>
+        <label for=""><input type="checkbox">Am nhac</label>
+        <label for=""><input type="checkbox">Choi game</label>
+        <label for=""><input type="checkbox">Doc sach</label> <br>
+
+        Ghi chu: <br>
+        <textarea name="Ghichu" id="" cols="50" rows="10"></textarea> <br>
+        <hr>
+        <input type="submit" value="Dang ky">
+        <input type="reset" value="Nhap lai">
+    </form>
+</body>
+</html>
